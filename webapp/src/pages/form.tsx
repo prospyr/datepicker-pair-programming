@@ -30,6 +30,7 @@ export default function FormPage() {
             Date
           </label>
           <div className="mt-1">
+            {/* Date cannot be in the future */}
             <DatePicker />
           </div>
         </div>

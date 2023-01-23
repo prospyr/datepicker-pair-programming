@@ -52,6 +52,7 @@ export default function FilteredPage() {
         </div>
         <div className="flex space-x-2">
           <p>Filter by date:</p>
+          {/* Extra credit: make it possible to filter by a time range */}
           <DatePicker />
         </div>
 
