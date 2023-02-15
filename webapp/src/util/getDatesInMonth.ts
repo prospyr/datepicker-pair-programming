@@ -16,6 +16,11 @@ interface GetDatesInMonthParams {
     year?: number
 }
 
+/*
+    This function will create a list of dates in a month
+
+    You are welcome to modify this function
+*/
 export default function getDatesInMonth({ month, year = dayjs().year(), options = {} }: GetDatesInMonthParams) {
     const { groupByWeek = false, includeOutsideDates = false } = options;
     /** 
