@@ -10,6 +10,10 @@ export interface DatePickerProps {
     other library you are familiar with.
 
     TailwindCSS is available for styling, but you are not required to use it.
+
+    Suggestions for getting started:
+    - populate a list of dates (a utility function is available to you in the util directory)
+    - create a calendar grid w/ days aligned correctly from Sun-Sat
 */
 export default function DatePicker(props: DatePickerProps) {
   return <div>Datepicker goes here</div>;
